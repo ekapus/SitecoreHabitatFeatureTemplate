@@ -140,9 +140,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Indexing\" />
-    <Folder Include="Models\%24camelcaseprojectname%24\" />
+    <Folder Include="Models\%24safeprojectname%24\" />
     <Folder Include="Repositories\" />
-    <Folder Include="Views\%24camelcaseprojectname%24\" />
+    <Folder Include="Views\%24safeprojectname%24\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
