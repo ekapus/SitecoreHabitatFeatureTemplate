@@ -10,7 +10,7 @@ The src folder contains the source project that I used to create the template. T
 1. Copy the zip file to to \My Documents\Visual Studio Version\Templates\ProjectTemplates\Language\ on your local machine.
 1. Run the following command from the Visual Studio Command Line (accessed from the start menu at Visual Studio 2015/Developer Command Prompt For Visual Studio 2015:
   *devenv /installvstemplates
-  *Note: this can be done wile Visual Studio is running.
+  *Note: this can be done while Visual Studio is running.
 
 For more info about finding, organizing and installing Visual Studio Project Templates: https://msdn.microsoft.com/en-us/library/y3kkate1.aspx
 
