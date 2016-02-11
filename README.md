@@ -7,7 +7,7 @@ The src folder contains the source project that I used to create the template. T
 
 ##Feature Project Template Installation Instructions
 1. Download Sitecore Habitat Feature Visual Studio Project.zip from https://github.com/ekapus/SitecoreHabitatFeatureTemplate
-1. Copy the zip file to to \My Documents\Visual Studio Version\Templates\ProjectTemplates\Language\ on your local machine.
+1. Copy the zip file to to C:\Users\Administrator\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#\ on your local machine.
 1. Run the following command from the Visual Studio Command Line (accessed from the start menu at Visual Studio 2015/Developer Command Prompt For Visual Studio 2015:
 ```
 devenv /installvstemplates
@@ -24,7 +24,7 @@ For more info about finding, organizing and installing Visual Studio Project Tem
 1. Enter a name for your feature. It's best to omit spaces and punctuation.
 1. Using windows explorer, create a folder that matches your solution folder name under "Your Habitat Project Root\src\Feature"
 1. Under the folder you just created, create a "code" and a "serialization" folder.
-1. Choose the code folder as the location for the project you're creating.
+1. Choose the code folder you just created as the location for the project you're creating.
 1. Hit OK
 1. Open your new project.
 1. Rename /Views/$safeprojectname$ to /Views/YourProjectName
