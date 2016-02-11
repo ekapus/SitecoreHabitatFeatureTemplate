@@ -4,3 +4,24 @@ There is a standard structure to Sitecore Habitat Feature Projects, and after cr
 Because I'm a lazy programmer, I created a visual studio template to make my life, and my colleagues lives, easier. 
 
 The src folder contains the source project that I used to create the template. The Sitecore Habitat Feature Visual Studio Template.zip file contains the template that can be installed in visual studio.
+
+##Feature Project Template Installation Instructions
+1. Download Sitecore Habitat Feature Visual Studio Project.zip from https://github.com/ekapus/SitecoreHabitatFeatureTemplate
+1. Copy the zip file to to \My Documents\Visual Studio Version\Templates\ProjectTemplates\Language\ on your local machine.
+1. Run the following command from the Visual Studio Command Line (accessed from the start menu at Visual Studio 2015/Developer Command Prompt For Visual Studio 2015:
+  *devenv /installvstemplates
+  *Note: this can be done wile Visual Studio is running.
+
+For more info about finding, organizing and installing Visual Studio Project Templates: https://msdn.microsoft.com/en-us/library/y3kkate1.aspx
+
+
+##Feature Project Template Use Instructions
+1. Create a new solution folder in your Habitat Solution under "Feature" that describes your feature.
+1. Right click on the new solution folder, choose add, and select "New Project".
+1. Scroll through the project types and select "Sitecore Habitat Feature".
+1. Enter a name for your feature. It's best to omit spaces and punctuation.
+1. Create a folder that matches your solution folder name under "Your Habitat Project Root\src\Feature" and choose it as the location for the project.
+1. Hit OK
+1. Open your new project.
+1. Rename /Views/$safeprojectname$ to /Views/YourProjectName
+1. Rename /Models/$safeprojectname$ to /Models/YourProjectName
