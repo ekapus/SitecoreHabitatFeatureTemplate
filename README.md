@@ -9,8 +9,10 @@ The src folder contains the source project that I used to create the template. T
 1. Download Sitecore Habitat Feature Visual Studio Project.zip from https://github.com/ekapus/SitecoreHabitatFeatureTemplate
 1. Copy the zip file to to \My Documents\Visual Studio Version\Templates\ProjectTemplates\Language\ on your local machine.
 1. Run the following command from the Visual Studio Command Line (accessed from the start menu at Visual Studio 2015/Developer Command Prompt For Visual Studio 2015:
-  * devenv /installvstemplates
-  * Note: this can be done while Visual Studio is running.
+```
+devenv /installvstemplates
+```
+_Note: this can be done while Visual Studio is running._
 
 For more info about finding, organizing and installing Visual Studio Project Templates: https://msdn.microsoft.com/en-us/library/y3kkate1.aspx
 
