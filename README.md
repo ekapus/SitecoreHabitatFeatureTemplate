@@ -22,7 +22,9 @@ For more info about finding, organizing and installing Visual Studio Project Tem
 1. Right click on the new solution folder, choose add, and select "New Project".
 1. Scroll through the project types and select "Sitecore Habitat Feature".
 1. Enter a name for your feature. It's best to omit spaces and punctuation.
-1. Create a folder that matches your solution folder name under "Your Habitat Project Root\src\Feature" and choose it as the location for the project.
+1. Using windows explorer, create a folder that matches your solution folder name under "Your Habitat Project Root\src\Feature"
+1. Under the folder you just created, create a "code" and a "serialization" folder.
+1. Choose the code folder as the location for the project you're creating.
 1. Hit OK
 1. Open your new project.
 1. Rename /Views/$safeprojectname$ to /Views/YourProjectName
